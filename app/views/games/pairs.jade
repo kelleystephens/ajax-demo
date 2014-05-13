@@ -1,0 +1,16 @@
+extends ../shared/template
+
+block content
+  h1 Games : Roll Two Dice
+
+  button#roll Roll 2 Dice
+
+  #winner
+    span Winner:
+    span#win
+
+  #die1
+  #die2
+
+block scripts
+  script(src='/js/es6/compiled/pairs.js')
